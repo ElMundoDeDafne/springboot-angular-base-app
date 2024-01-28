@@ -2,7 +2,7 @@ package mx.com.mundodafne.angular.springboot.base.dao;
 
 import java.util.Optional;
 
-import mx.com.mundodafne.angular.springboot.base.app.entity.EmpleadoEntity;
+import mx.com.mundodafne.angular.springboot.base.entity.EmpleadoEntity;
 
 public class EmpleadoRepository implements IEmpleadoRepository{
 
