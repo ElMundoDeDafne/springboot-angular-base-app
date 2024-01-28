@@ -1,9 +1,9 @@
-package mx.com.mundodafne.angular.springboot.base.dao;
+package mx.com.mundodafne.angular.springboot.base.app.dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import mx.com.mundodafne.angular.springboot.base.entity.EmpleadoEntity;
+import mx.com.mundodafne.angular.springboot.base.app.entity.EmpleadoEntity;
 
 @Repository
 public interface IEmpleadoRepository extends CrudRepository<EmpleadoEntity, Long>{

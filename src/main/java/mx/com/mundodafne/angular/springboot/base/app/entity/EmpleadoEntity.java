@@ -1,4 +1,4 @@
-package mx.com.mundodafne.angular.springboot.base.entity;
+package mx.com.mundodafne.angular.springboot.base.app.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

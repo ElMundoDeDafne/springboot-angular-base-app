@@ -1,4 +1,4 @@
-package mx.com.mundodafne.angular.springboot.base.exception;
+package mx.com.mundodafne.angular.springboot.base.app.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
