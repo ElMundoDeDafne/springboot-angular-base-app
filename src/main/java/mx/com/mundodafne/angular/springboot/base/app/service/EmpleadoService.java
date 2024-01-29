@@ -17,4 +17,8 @@ public class EmpleadoService {
 	public List<EmpleadoEntity> listarTodosLosEmpleados(){
 		return (List<EmpleadoEntity>) repo.findAll();
 	}
+	
+	public EmpleadoEntity guardarEmpleado(EmpleadoEntity empleadoEntity) {
+		return repo.save(empleadoEntity);
+	}
 }
