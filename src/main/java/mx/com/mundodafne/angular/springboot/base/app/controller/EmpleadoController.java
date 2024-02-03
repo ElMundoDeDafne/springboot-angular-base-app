@@ -3,8 +3,10 @@ package mx.com.mundodafne.angular.springboot.base.app.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,5 +32,10 @@ public class EmpleadoController {
 	@PostMapping("/empleados")
 	public EmpleadoEntity guardarEmpleado(@RequestBody EmpleadoEntity empleadoEntity) {
 		return service.guardarEmpleado(empleadoEntity);
+	}
+	
+	@GetMapping("/empleados/{idEmpleado}")
+	public ResponseEntity<EmpleadoEntity> obtenerEmpleadoPorId(@PathVariable Long idEmpleado){
+		return null;
 	}
 }
